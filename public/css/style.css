@@ -1,0 +1,121 @@
+body{
+  margin:0;
+  text-align: center;
+ font-family: 'Open Sans', sans-serif;
+}
+#Home{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('/images/img.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 337px;
+}
+.nav{
+    float: right;
+      margin-top: 20px;
+}
+ul{
+list-style-type: none;
+
+}
+
+ul li{
+  display: inline-block;
+}
+ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding:5px 20px;
+}
+ul li a:hover{
+
+text-decoration:none;
+background-color: #fff;
+color:#48B7AB;
+}
+h1{
+   color: #fff;
+     font-family: 'Lora', serif;
+
+}
+h2{
+    font-family: 'Lora', serif;
+    padding-bottom: 20px;
+    text-decoration: underline orange;
+    font-weight: bold;
+
+}
+
+.text{
+
+  padding-top: 150px;
+  font-family:monospace;
+  font-size: 45px;
+  font-weight:bolder;
+   color: #fff;
+   text-align: center;
+}
+/* about us */
+
+#aboutus{
+  margin-top: 60px;
+}
+#aboutus img{
+height: 380px;
+width: 420px;
+border:thick double  #48B7AB;
+}
+
+/* services */
+#Services{
+text-align: center;
+    padding: 100px 140px;
+
+}
+i{
+  color: #48B7AB;
+  padding-bottom: 40px;
+}
+.services-block {
+
+  margin-right: 20px;
+}
+
+
+
+/* work */
+#work{
+
+text-align: center;
+  padding: 90px 140px;
+}
+
+.building{
+  height: 250px;
+  width: 200px;
+  padding-bottom: 20px;
+  /* border-top:  #71D1C7; */
+
+  border:thick double 3px  #48B7AB;
+
+
+}
+.building:hover {
+  cursor: pointer;
+  opacity: 0.6;
+
+}
+/* contact */
+#contactus{
+    text-align: center;
+      padding: 80px ;
+}
+
+/* footer */
+#footer{
+
+  background-color: #48B7AB;
+  color:#fff;
+  padding: 15px;
+      text-align: center;
+}
